@@ -1,0 +1,94 @@
+body {
+  background-image: linear-gradient(to bottom, rgb(195, 218, 236) 40%, rgb(247, 206, 206) 50%);
+}
+
+.navbar {
+  background-image: linear-gradient(to bottom, rgb(245, 207, 207) 0%, rgb(195, 218, 236) 100%);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  border-radius: 10px;
+  transition: .5s;
+  padding-left: 5px;
+}
+
+.nav-link:hover {
+  background-color: #bbb;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.nav-link:active {
+  background-color: #777;
+  opacity: 0.8;
+  color: aquamarine;
+}
+
+.card-movies,
+.list-movies {
+  transition: .5s;
+  cursor: pointer;
+}
+
+.list-movies:hover {
+  color: #aaa
+}
+
+.card-movies:hover {
+  color: #aaa
+}
+
+.list-movies:active {
+  opacity: 0.6;
+  color: aqua;
+}
+
+.card-movies:active {
+  opacity: 0.6;
+  color: aqua;
+}
+
+#More-button {
+  transition: .5s;
+}
+
+#More-button:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+.card {
+  transition: .5s;
+}
+
+.card:hover {
+  transform: scale(1.1, 1);
+}
+
+.list-transform {
+  background-image: linear-gradient(rgb(162, 214, 230), rgb(163, 217, 233));
+  background-position: left bottom;
+  background-size: 0 2.5px;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s;
+
+}
+
+.list-transform:hover {
+  background-size: 100% 2.5px;
+
+}
+.page-view-color{
+  background-color: bisque;
+  border-radius: 20px;
+  width: 60px;
+  text-align: center;
+  color: #777;
+}
+.page-color {
+  background-color: aqua;
+}
